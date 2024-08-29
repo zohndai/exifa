@@ -190,6 +190,9 @@ particles_js = """<!DOCTYPE html>
 </body>
 </html>
 """
+st.set_page_config(page_title="Exifa.net", page_icon="✨", layout="wide")
+
+
 
 if "has_snowed" not in st.session_state:
 
