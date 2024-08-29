@@ -46,3 +46,10 @@ icons = {
     "user": "https://raw.githubusercontent.com/sahirmaharaj/exifa/2f685de7dffb583f2b2a89cb8ee8bc27bf5b1a40/img/user-done.svg",
 }
 
+
+if "has_snowed" not in st.session_state:
+
+    st.snow()
+    st.session_state["has_snowed"] = True
+#if st.session_state.show_animation:
+#    components.html(particles_js, height=370, scrolling=False)
