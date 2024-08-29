@@ -1172,6 +1172,5 @@ if "has_snowed" not in st.session_state:
 
     st.snow()
     st.session_state["has_snowed"] = True
-
 if st.session_state.show_animation:
     components.html(particles_js, height=370, scrolling=False)
